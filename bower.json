@@ -1,0 +1,21 @@
+{
+  "name": "project-1",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Sergey"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^3.3.1",
+    "normalize.css": "^8.0.1"
+  }
+}

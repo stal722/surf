@@ -1,0 +1,63 @@
+.insructors_wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 50px;
+
+	@media(min-width: 900px) {
+		flex-direction: row;
+		margin-bottom: 50px;
+
+	}
+
+	@media(min-width: 1280px) {
+		flex-direction: row;
+		margin-bottom: 255px;
+
+	}
+}
+
+.instructor {
+	text-align: center;
+	margin-bottom: 40px;
+
+	@media(min-width: 1280px) {
+		margin-bottom: 0px;
+
+	}
+	
+}
+
+.instructor__foto {
+	margin-bottom: 15px;
+
+	@media(min-width: 1280px) {
+		margin-bottom: 30px;
+
+	}
+}
+
+.instructor__name {
+	color: #000000;
+	font-family: 'Playfair Display', serif;
+	font-size: 26px;
+	font-weight: 400;
+	letter-spacing: 0.28px;
+	margin-bottom: 10px;
+
+	@media(min-width: 1280px) {
+		font-size: 30px;
+
+	}
+}
+
+.instructor__students {
+	color: green;
+	font-size: 15px;
+	font-weight: 500;
+	letter-spacing: 0.14px;
+}
+
+
+
